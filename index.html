@@ -1,159 +1,0 @@
-<!DOCTYPE html>
-<html lang="ar" dir="rtl">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>مكتبة المعرفة</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-
-    <header>
-        <h1>📚 مكتبة المعرفة</h1>
-
-        <nav>
-            <ul>
-                <li><a href="#about">عن المكتبة</a></li>
-                <li><a href="#books">الكتب</a></li>
-                <li><a href="#gallery">المعرض</a></li>
-                <li><a href="#reviews">الآراء</a></li>
-                <li><a href="#join">انضم إلينا</a></li>
-                <li><a href="#contact">تواصل</a></li>
-            </ul>
-        </nav>
-
-        <form class="search-bar" action="#" method="get">
-            <label for="search">🔍 ابحث عن كتاب:</label>
-            <input type="search" id="search" name="search" placeholder="أدخل اسم الكتاب أو المؤلف...">
-            <button type="submit">بحث</button>
-        </form>
-    </header>
-
-    <main>
-        <article id="about">
-            <header>
-                <h2>عن مكتبتنا</h2>
-            </header>
-            <p>
-                مكتبة المعرفة هي صرح ثقافي تأسس عام 2010 ليكون مركزًا لنشر العلم والمعرفة.
-                تحتوي على أكثر من 20 ألف كتاب في مختلف التخصصات، كما تقدّم خدمات قراءة رقمية، واستعارة ورقية،
-                ونادي قرّاء أسبوعي.
-            </p>
-            <aside>
-                <h3>معلومة جانبية:</h3>
-                <p>هل تعلم أن أول مكتبة عامة في التاريخ كانت في مدينة نينوى بالعراق القديم؟ 📜</p>
-            </aside>
-        </article>
-
-        <section id="books">
-            <h2>📖 قائمة الكتب</h2>
-            <table>
-                <caption>جدول يوضح بعض الكتب المتوفرة في مكتبتنا</caption>
-                <thead>
-                    <tr>
-                        <th>رقم</th>
-                        <th>اسم الكتاب</th>
-                        <th>المؤلف</th>
-                        <th>التصنيف</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>1</td>
-                        <td>الأيام</td>
-                        <td>طه حسين</td>
-                        <td>سيرة ذاتية</td>
-                    </tr>
-                    <tr>
-                        <td>2</td>
-                        <td>رجال في الشمس</td>
-                        <td>غسان كنفاني</td>
-                        <td>رواية</td>
-                    </tr>
-                    <tr>
-                        <td>3</td>
-                        <td>العادات السبع للناس الأكثر فعالية</td>
-                        <td>ستيفن كوفي</td>
-                        <td>تنمية بشرية</td>
-                    </tr>
-                    <tr>
-                        <td>4</td>
-                        <td>الخيميائي</td>
-                        <td>باولو كويلو</td>
-                        <td>أدب عالمي</td>
-                    </tr>
-                </tbody>
-            </table>
-        </section>
-
-        <section id="gallery">
-            <h2>📸 معرض الكتب</h2>
-            <div class="gallery">
-                <figure>
-                    <img src="الخيميائي.jpeg" alt="غلاف كتاب 1">
-                    <figcaption>رواية الخيميائي</figcaption>
-                </figure>
-                <figure>
-                    <img src="رجال في الشمس.jpeg" alt="غلاف كتاب 2">
-                    <figcaption>رجال في الشمس</figcaption>
-                </figure>
-                <figure>
-                    <img src="الايام.jpeg" alt="غلاف كتاب 3">
-                    <figcaption>الأيام</figcaption>
-                </figure>
-                <figure>
-                    <img src="مقدمة ابن خلدون.jpeg" alt="غلاف كتاب 4">
-                    <figcaption>مقدمة ابن خلدون</figcaption>
-                </figure>
-            </div>
-        </section>
-
-        <section id="reviews">
-            <h2>💬 آراء الزوار</h2>
-            <article class="review">
-                <h3>أمجد من صنعاء</h3>
-                <p>مكتبة المعرفة جعلت القراءة عادة يومية لي، والتصميم البسيط للموقع مريح جدًا.</p>
-            </article>
-
-            <article class="review">
-                <h3>هبة من تعز</h3>
-                <p>مكتبة راقية بكل معنى الكلمة، أتمنى إضافة مزيد من الكتب في مجال الفلسفة 💭.</p>
-            </article>
-        </section>
-
-        <section id="join">
-            <h2>📝 انضم إلى عضوية المكتبة</h2>
-            <form action="#" method="post" class="join-form">
-                <fieldset>
-                    <legend>معلومات العضوية</legend>
-
-                    <label for="name">الاسم الكامل:</label>
-                    <input type="text" id="name" name="name" required>
-
-                    <label for="email">البريد الإلكتروني:</label>
-                    <input type="email" id="email" name="email" required>
-
-                    <label for="age">العمر:</label>
-                    <input type="number" id="age" name="age" min="12" max="100">
-               </fieldset>
-            </form>
-        </section>
-    <h2 class="bishr">عمل الطالب بشر عبدالعزيز حمود علي الحميري</h2>
-
-        <footer class="footer">
-            <div class="footer-content">
-                <p>📚 مكتبة المعرفة - حيث تلتقي الفكرة بالكلمة 💡</p>
-                <p>جميع الحقوق محفوظة © 2025 | مكتبة المعرفة</p>
-                <nav class="footer-links">
-                    <a href="#home">الرئيسية</a> |
-                    <a href="#about">من نحن</a> |
-                    <a href="#books">الكتب</a> |
-                    <a href="#contact">تواصل معنا</a>
-                </nav>
-            </div>
-        </footer>
-    </main>
-</body>
-</html>                           
